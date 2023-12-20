@@ -1,0 +1,86 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.joinChat{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.inputText{
+  width: 200px;
+  border-radius:10px;
+  border: 1px solid violet;
+  padding:10px;
+}
+.inputText:focus{
+  outline: none;
+}
+.btn{
+  border-radius: 10px;
+  padding:7px;
+  border:1px solid violet;
+  background-color: violet;
+}
+.liveChat{
+  border:1px solid violet;
+  height:400px;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chatFooter{
+  height:32px;
+  width:80%;
+  border:1px solid violet;
+}
+.footerBtn{
+  width: 54px;
+  height:35px;
+  background-color: violet;
+  border:none;
+
+}
+.chatFooter:focus{
+  outline: none;
+}
+#you .mainText{
+  margin-top: 2px;
+  background-color: violet;
+  color:white;
+  width:90px;
+  padding:4px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+#you .info{
+  display: flex;
+  gap:3px;
+  margin-top: -15px;
+  padding-left: 6px;
+}
+#other .mainText{
+  margin-left: 65%;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color:white;
+  width:90px;
+  padding:4px;
+}
+#other .info{
+  margin-left: 65%;
+  display: flex;
+  gap:3px;
+  margin-top: -15px;
+  padding-left: 6px;
+
+}
+.messageContainer{
+  height: 95vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
